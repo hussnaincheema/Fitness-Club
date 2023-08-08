@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    padding: 90px 0px;
+}
+
+
+                    /* =================================================
+                                         NAVBAR CSS 
+                        =================================================*/
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.navbar{
+    padding: 10px 0 10px 15px;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.navbar-toggler:hover{
+    color: white;
+}
+.navbar-brand span{
+    color: grey;
+}
+.nav-link{
+    color: white;
+}
+.collapse{
+    margin-left: 15px;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbuttons{
+    margin-left: 42%;
+}
+.btn-two{
+    margin-left: 10px;
+}
+
+
+                    /* =================================================
+                                         HOME SECTION CSS 
+                        =================================================*/
+
+
+.home{
+    background-image: url("Images/Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    padding:300px 0;
+    text-align: center;
+    height: 15vh;
+    position: relative;
+}
+.home-bg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.headings a{
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 3px solid grey;
+    color: grey;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.headings{
+    position: relative;
+    margin-top: -80px;
+}
+.headings p{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.headings h5{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+                    /* =================================================
+                                    BECOME MEMBER SECTION CSS 
+                        =================================================*/
+
+.member-container{
+    background-color: silver;
+    border-radius: 15px;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.555);
+}
+.form-desc h1,p{
+    text-align: center;
+}
+.form-desc h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 45px;
+}
+.form-desc p{
+    padding-top: 20px;
+}
+.form-input sup{
+    color: red;
+}
+form sup{
+    color: red;
+}
+form p{
+    text-align: left;
+}
+.text-center{
+    padding-bottom: 50px;
+}
+
+
+                    /* =================================================
+                                        ABOUT SECTION CSS 
+                        =================================================*/
+
+.about-heading h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.about-desc{
+    padding-top: 8%;
+}
+.about-desc h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.about-desc a{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 3px 15px;
+    font-size: 18px;
+}
+.about-desc p{
+    text-align: left;
+}
+.about-img{
+    padding-top: 50px;
+}
+.about-img img{
+    border: 3px solid rgb(175, 173, 173);
+    border-radius: 4px;
+    padding: 9px;
+}
+
+
+                    /* =================================================
+                                         READ MORE CSS 
+                        =================================================*/
+
+
+#readmore{
+    color: black;
+}
+.desc-parts h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 15px;
+}
+.desc-parts p{
+    text-align: left;
+}
+
+                    /* =================================================
+                                   TRAINING CLASSES SECTION CSS 
+                        =================================================*/
+
+#training{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.taining-desc{
+    text-align: center;
+}
+.taining-desc h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: black;
+}
+.taining-desc p{
+    font-size: larger;
+    color: black;
+    margin-top: 15px;
+}
+.list{
+    box-shadow: 1px 2px 10px 3px #b1adad;
+    margin-top: 25px;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.first-class h5{
+    font-weight: bolder;
+    color: white;
+}
+.second-class h5{
+    font-weight: bolder;
+}
+.third-class h5{
+    font-weight: bolder;
+}
+.forth-class h5{
+    font-weight: bolder;
+}
+.list:hover{
+    transform: scale(1.2);
+    border-radius: 35px;
+    transition: 0.5s;
+}
+.second_list img{
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+.second_list h5,p{
+    color: black;
+}
+.second_list h5{
+    font-weight: bolder;
+    color: white;
+}
+.second_list p{
+    text-align: left;
+}
+.second_list a{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 3px 15px;
+    font-size: 18px;
+}
+
+
+
+                    /* =================================================
+                                         VIEW SCHEDULE CSS 
+                        =================================================*/
+
+.schedule-desc{
+    background-color: grey;
+}
+.schedule-desc h1{
+    padding: 45px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.schedule-lists{
+    margin-top: 25px;
+}
+.list-desc h4{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.list-desc ol li{
+    color: black;
+}
+
+
+                    /* =================================================
+                                        BLOGS SECTION CSS 
+                        =================================================*/
+
+
+
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogs-heading h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+.row-one{
+    margin-top: 2%;
+}
+.row-two{
+    margin-top: 2%;
+}
+.card-title{
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+}
+.card-text{
+    color: black;
+    text-align: center;
+    padding-top: 13px;
+}
+.card-group{
+    margin-top: 4%;
+}
+
+
+
+                /* =================================================
+                                    BLOGS READ MORE CSS 
+                        =================================================*/
+
+
+.header-part{
+    background-color: black;
+    padding: 40px;
+}
+.header-part p{
+    color: grey;
+}
+.header-part h1{
+    color: grey;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.header-part p{
+    text-align: left;
+}
+.bodyupper{
+    display: flex;
+    margin-top: 5%;
+    color: black;
+}
+.bodyupper p{
+    text-align: left;
+}
+.feature h4{
+    font-weight: 600;
+    font-size: x-large;
+}
+.feature span{
+    color: grey;
+    font-size: large;
+}
+.feature p{
+    color: black;
+}
+.blank{
+    width: 30vw;
+    height: 25vh;
+    background-color: grey;
+}
+.firstsection{
+    display: flex;
+}
+.secondsection{
+    display: flex;
+    margin-left: 5%;
+}
+.bodybottom{
+    display: flex;
+    margin-top: 5%;
+    color: black;
+}
+.example h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+.example p{
+    text-align: left;
+    color: black;
+}
+.about{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.about h1,p{
+    color: black;
+}
+.about h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.about p{
+    text-align: left;
+}
+.social{
+    margin-top: 8%;
+}
+.social i{
+    font-size: small;
+    margin-left: 1%;
+}
+.social-list ul{
+    list-style-type: none;
+}
+
+
+                    /* =================================================
+                                    CONTACT US CSS 
+                        =================================================*/
+
+.contact-section{
+    display: flex;
+}
+#contact{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.contact-desc{
+    color: black;
+}
+.contact-heading h1{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.contact-desc h4{
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 15%;
+}
+.contact-desc p{
+    color: black;
+    width: 50%;
+    text-align: left;
+}
+.contact-links{
+    margin-top: 3%;
+}
+.contact-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.contact-links ul{
+    list-style-type: none;
+}
+.contact-links ul li{
+    display: inline-block; 
+    margin-right: 2%;
+}
+form{
+    color: black;
+}
+.contact-form{
+    margin-top: 7%;
+}
+
+
+                    /* =================================================
+                                         FOOTER CSS 
+                        =================================================*/
+
+
+#footer-sidebar{
+    color: black;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#footer-sidebar h4{
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 12%;
+}
+#footer-sidebar h4:after{
+    background-color: black;
+    content: "";
+    height: 2px;
+    width: 60px;
+    display: block;
+    margin: 10px 0;
+}
+#footer-sidebar p{
+    text-align: left;
+}
+i{
+    margin-right: 8px;
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+.footer-icons ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-icons ul{
+    list-style-type: none;
+}
+.footer-icons ul li{
+    display: inline-block; 
+    margin-right: 2%;
+}
+
+
+
+                    /* =================================================
+                                         Media Queries 
+                        =================================================*/
+
+@media screen and (max-width: 380px){
+    .headings{
+        margin-top: -180px;
+    }
+    .headings h5{
+        font-size: 25px;
+    }
+    .headings p{
+        font-size: 20px;
+    }
+    .headings a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 244px){
+    .navbar-brand{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 232px){
+    .navbar-brand{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .navbuttons{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 176px){
+    .headings a{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .second_list{
+        margin-top: 19px;
+    }
+}
+
+@media screen and (max-width: 378px){
+    .card-footer{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .bodyupper{
+        display: block;
+        text-align: center;
+    }
+    .bodybottom{
+        display: block;
+        text-align: center;
+    }
+    .secondsection{
+        margin-top: 5%;
+        margin-left: auto;
+    }
+    .about{
+        margin-left: auto;
+    }
+    .social-list ul li a{
+        margin-left: -45px;
+    }
+    .contact-section{
+        display: block;
+    }
+}
+@media screen and (max-width: 738px){
+    .firstsection{
+        display: block;
+    }
+    .secondsection{
+        display: block;
+    }
+    .blank{
+        width: 100%;
+    }
+}
